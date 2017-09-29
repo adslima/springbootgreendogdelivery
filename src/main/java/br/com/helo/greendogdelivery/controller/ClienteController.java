@@ -19,9 +19,6 @@ import br.com.helo.greendogdelivery.repository.ClienteRepository;
 @RequestMapping("/clientes")
 public class ClienteController {
 
-	/**
-	 *
-	 */
 	private final ClienteRepository clienteRepository;
 
 	private final String CLIENTE_URI = "clientes/";
